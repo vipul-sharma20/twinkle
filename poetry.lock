@@ -1,0 +1,30 @@
+[[package]]
+name = "docopt"
+version = "0.6.2"
+description = "Pythonic argument parser, that will make you smile"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "rpi-ws281x"
+version = "4.3.2"
+description = "Userspace Raspberry Pi PWM/PCM/SPI library for SK6812 and WS281X LEDs."
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "1a96b4d2f57f7f483cdc53b2b91217915a8479eae32f7193a4268295b6570c36"
+
+[metadata.files]
+docopt = [
+    {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
+]
+rpi-ws281x = [
+    {file = "rpi_ws281x-4.3.2-cp27-cp27mu-linux_armv7l.whl", hash = "sha256:55f9e8ed328bb97f998c8e7cc1325425582f8b4f313f6c875a7c5d2f683452ca"},
+    {file = "rpi_ws281x-4.3.2-cp37-cp37m-linux_armv7l.whl", hash = "sha256:680948581297d42b1d4db6184efe21ee9bf3b7aabfecb99df8f524bc157571b1"},
+    {file = "rpi_ws281x-4.3.2.tar.gz", hash = "sha256:4e1d5149343fe0885797363e1b78bbb4ea3888fc4204c0c75f91c4f0dcbb231d"},
+]
