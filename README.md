@@ -10,12 +10,4 @@ Currently supports a few effects implemented [here][effects].
 twinkle render rainbow
 ```
 
-### TODO
-
-- Documentation to add your own effects.
-- Configurable effects attributes via CLI.
-- Remote execution.
-- ...
-
-
 [effects]: https://github.com/vipul-sharma20/twinkle/tree/master/twinkle/effects
